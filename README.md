@@ -8,6 +8,8 @@
 * Responsive layout for desktop and mobile devices
 * Aesthetic design inspired by Spotify's modern UI
 * [Other key features you implemented, e.g., "Functional navigation bar," "Custom playlist cards"]
+* Automatic Folder analyze and create Cards
+* Auto Title  and Name taking, etc
 
 ## Future Enhancements
 ---
