@@ -1,0 +1,281 @@
+@media screen and ((max-width: 1100px) and (min-width: 971px)) {
+    .homePage .left {
+        position: absolute;
+        z-index: 5;
+        translate: -200%;
+        transition: all 0.5s ease-in-out;
+        width: 320px;
+    }
+
+    :root {
+        --rightWidth: calc(100vw);
+    }
+
+    .homePage .right {
+        width: var(--rightWidth);
+    }
+
+    .hamburger {
+        display: unset;
+    }
+
+    .close {
+        display: unset;
+    }
+}
+
+@media screen and ((max-width: 970px) and (min-width: 801px)) {
+    .homePage .left {
+        position: absolute;
+        z-index: 5;
+        translate: -200%;
+        transition: all 0.5s ease-in-out;
+        width: 320px;
+    }
+
+    :root {
+        --rightWidth: calc(100vw);
+    }
+
+    .homePage .right {
+        width: var(--rightWidth);
+    }
+
+    .headerMain .headerRight {
+        display: none;
+    }
+
+    .account {
+        visibility: visible;
+    }
+
+    .hamburger {
+        display: unset;
+    }
+
+    .close {
+        display: unset;
+    }
+}
+
+@media screen and ((max-width: 800px) and (min-width: 601px)) {
+    .homePage .left {
+        position: absolute;
+        z-index: 5;
+        translate: -200%;
+        transition: all 0.5s ease-in-out;
+        width: 320px;
+    }
+
+    :root {
+        --rightWidth: calc(100vw);
+    }
+
+    .homePage .right {
+        width: var(--rightWidth);
+    }
+
+    .headerMain .headerRight {
+        display: none;
+    }
+
+    .account {
+        visibility: visible;
+    }
+
+    .searchbar input {
+        width: 300px;
+    }
+
+    .hamburger {
+        display: unset;
+    }
+
+    .close {
+        display: unset;
+    }
+}
+
+@media screen and ((max-width: 600px) and (min-width: 466px)) {
+    .homePage .left {
+        position: absolute;
+        z-index: 5;
+        translate: -200%;
+        transition: all 0.5s ease-in-out;
+        width: 320px;
+    }
+
+    :root {
+        --rightWidth: calc(100vw);
+    }
+
+    .homePage .right {
+        width: var(--rightWidth);
+    }
+
+    .headerMain .headerRight {
+        display: unset;
+    }
+
+    .headerCenter {
+        display: none;
+    }
+
+    .hamburger {
+        display: unset;
+    }
+
+    .close {
+        display: unset;
+    }
+}
+
+@media screen and ((max-width: 465px) and (min-width: 401px)) {
+    .homePage .left {
+        position: absolute;
+        z-index: 5;
+        translate: -200%;
+        transition: all 0.5s ease-in-out;
+        width: 320px;
+    }
+
+    :root {
+        --rightWidth: calc(100vw);
+    }
+
+    .homePage .right {
+        width: var(--rightWidth);
+    }
+
+    .headerMain .headerRight {
+        display: unset;
+    }
+
+    .headerCenter {
+        display: none;
+    }
+
+
+    .right .Card {
+        width: 135px;
+        height: 190px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .hamburger {
+        display: unset;
+    }
+
+    .close {
+        display: unset;
+    }
+}
+
+@media screen and ((max-width: 400px) and (min-width: 351px)) {
+    .homePage .left {
+        position: absolute;
+        z-index: 5;
+        translate: -200%;
+        transition: all 0.5s ease-in-out;
+        width: 90vw;
+    }
+
+    :root {
+        --rightWidth: calc(100vw);
+    }
+
+    .homePage .right {
+        width: var(--rightWidth);
+    }
+
+    .headerMain .headerRight {
+        display: none;
+    }
+
+    .account {
+        visibility: visible;
+    }
+
+    .headerCenter {
+        display: none;
+    }
+
+    .right {
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .right .Card {
+        width: 80%;
+        height: 300px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .Card .names {
+        font-size: 1.1em;
+    }
+
+    .hamburger {
+        display: unset;
+    }
+
+    .close {
+        display: unset;
+    }
+}
+
+@media screen and ((max-width: 350px) and (min-width: 1px)) {
+    .homePage .left {
+        position: absolute;
+        z-index: 5;
+        translate: -200%;
+        transition: all 0.5s ease-in-out;
+        width: 320px;
+    }
+
+    :root {
+        --rightWidth: calc(100vw);
+    }
+
+    .homePage .right {
+        width: var(--rightWidth);
+    }
+
+    .headerMain .headerRight {
+        display: none;
+    }
+
+    .account {
+        visibility: visible;
+    }
+
+    .headerCenter {
+        display: none;
+    }
+
+    .right {
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .right .Card {
+        width: 90%;
+        height: 300px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .Card .names {
+        font-size: 1.3em;
+    }
+
+    .hamburger {
+        display: unset;
+    }
+
+    .close {
+        display: unset;
+    }
+}
