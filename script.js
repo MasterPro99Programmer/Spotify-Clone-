@@ -33,7 +33,7 @@ let audioUrls = [];
 const domParser = new DOMParser();
 
 async function fetchFolders() {
-    const folderResponse = await fetch(`./audios`);
+    const folderResponse = await fetch(`${baseUrl}/audios`);
     const folderHtml = await folderResponse.text();
 
     const folderLinks = Array.from(
@@ -52,7 +52,7 @@ async function fetchFolders() {
 }
 
 async function fetchAudioUrls(folderName) {
-    const audioResponse = await fetch(`./audios/${folderName}`);
+    const audioResponse = await fetch(`${baseUrl}/audios/${folderName}`);
     const audioHtml = await audioResponse.text();
 
     audioTitles = Array.from(
